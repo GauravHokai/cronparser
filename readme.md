@@ -26,7 +26,7 @@ A command-line application, written in Go, that parses a standard cron string an
     ```
 2.  Navigate into the project directory:
     ```sh
-    cd cronapp
+    cd cronparser
     ```
 3.  Run the application:
 
