@@ -22,7 +22,7 @@ A command-line application, written in Go, that parses a standard cron string an
 
 1.  Clone the repository to your local machine:
     ```sh
-    git clone <your-repository-url>
+    git clone https://github.com/GauravHokai/cronparser
     ```
 2.  Navigate into the project directory:
     ```sh
@@ -36,7 +36,7 @@ A command-line application, written in Go, that parses a standard cron string an
         ```
     * **Method 2 (Using the pre-compiled MacOS binary):**
         ```sh
-        sudo ./cronParserBuild "*/15 0 1,15 * 1-5 /usr/bin/find"
+        sudo ./cronparser "*/15 0 1,15 * 1-5 /usr/bin/find"
         ```
 4.  Run the tests (Requires Go):
     ```sh
